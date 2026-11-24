@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Безопасность котельного оборудования</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">БЕЗОПАСНОСТЬ ТРУДА</div>
+        <nav class="nav">
+            <a href="#about">О проекте</a>
+            <a href="#modules">Модули</a>
+            <a href="#benefits">Факторы</a>
+            <a href="#library-sources">Материалы СПбПУ</a>
+            <a href="#checklist-section">Мой чек-лист</a>
+            <a href="#contact">Связаться</a>
+        </nav>
+    </header>
+
+    <!-- Главный экран (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Безопасность прежде всего</h1>
+            <p>Учебный проект по техносферной безопасности. Соединяем проверенные рекомендации, данные API и пользовательские сценарии для предотвращения аварий на котельном оборудовании.</p>
+            <a href="#modules" class="btn-primary">Перейти к приложению</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop" alt="Промышленное оборудование">
+        </div>
+    </section>
+
+    <!-- Модули (Сетка) -->
+    <section class="products" id="modules">
+        <h2>Инструменты для подготовки</h2>
+        <div class="product-grid">
+            <div class="product-card clickable" role="button" tabindex="0" aria-haspopup="dialog" data-module="Планировщик" data-desc="Позволяет создать план работ. Выбирайте тип котла, вид топлива, условия, и система сформирует индивидуальный чек-лист безопасности. Все планы сохраняются в вашем браузере.">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=400&auto=format&fit=crop" alt="Планирование">
+                </div>
+                <h3>Планировщик</h3>
+                <p>Создание плана работ с динамическим чек-листом, зависящим от типа котла и условий.</p>
+                <span class="card-link">Подробнее &rarr;</span>
+            </div>
+            
+            <div class="product-card clickable" role="button" tabindex="0" aria-haspopup="dialog" data-module="Тренажёр аварий" data-desc="Интерактивный симулятор действий при разгерметизации. Проходите ветвящиеся сценарии, принимайте решения и получайте разбор каждого шага со ссылками на нормативные документы.">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400&auto=format&fit=crop" alt="Тренажёр">
+                </div>
+                <h3>Тренажёр аварий</h3>
+                <p>Ветвящиеся сценарии действий при разгерметизации с разбором решений по источникам.</p>
+                <span class="card-link">Подробнее &rarr;</span>
+            </div>
+            
+            <div class="product-card clickable" role="button" tabindex="0" aria-haspopup="dialog" data-module="Мониторинг СИЗ" data-desc="Дашборд состояния средств индивидуальной защиты. Демонстрирует, как выглядит современный мониторинг на основе RFID-меток и показывает, какие СИЗ требуют замены.">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Мониторинг">
+                </div>
+                <h3>Мониторинг СИЗ</h3>
+                <p>Дашборд состояния средств индивидуальной защиты на основе имитации RFID-данных.</p>
+                <span class="card-link">Подробнее &rarr;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- История / О проекте -->
+    <section class="history" id="about">
+        <div class="history-image">
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600&auto=format&fit=crop" alt="Котельное оборудование">
+        </div>
+        <div class="history-text">
+            <h2>О проекте</h2>
+            <p>Данное веб-приложение разработано в рамках практики по техносферной безопасности. Оно объединяет теоретические знания об охране труда с практическими инструментами для ответственных лиц.</p>
+            <p>Приложение не выдаёт разрешение на проведение работ, а служит вспомогательным инструментом для подготовки персонала. Все правила и сценарии обоснованы проверенными первичными источниками (Приказы Ростехнадзора № 536 и № 411).</p>
+        </div>
+    </section>
+
+    <section class="library-section" id="library-sources">
+        <h2>Материалы электронной библиотеки СПбПУ</h2>
+        <p class="library-intro">В каталоге электронной библиотеки СПбПУ есть учебные издания и выпускные работы по котельному оборудованию. Ниже — примеры из записей 2026 года и краткое содержание их аннотаций. Записи проверены 24 ноября 2026 года.</p>
+        <div class="library-grid">
+            <article class="library-card">
+                <p class="library-year">Выпускная работа бакалавра · 2026</p>
+                <h3>Автоматизация водогрейного котла КВГМ-20</h3>
+                <p>В аннотации рассматривается котёл производительностью 20 Гкал/ч на газе/мазуте при переменной тепловой нагрузке. Работа описывает контроль температуры, давления и расхода, а также разработку автоматического регулирования для поддержания температуры сетевой воды на выходе.</p>
+                <a href="https://elib.spbstu.ru/dl/3/2026/vr/vr26-2513.pdf/info" target="_blank" rel="noopener noreferrer">Карточка работы в ЭБ СПбПУ ↗</a>
+            </article>
+            <article class="library-card">
+                <p class="library-year">Выпускная работа магистра · 2026</p>
+                <h3>Технические мероприятия для парового котла ТП-87</h3>
+                <p>В аннотации описан проект для конкретного котла при переводе на смесь доменного и коксового газов с сохранением природного газа. Отмечены особенности топлива и необходимость проверочных тепловых, гидравлических и прочностных расчётов именно для выбранной установки.</p>
+                <a href="https://elib.spbstu.ru/dl/3/2026/vr/vr26-6317.pdf/info" target="_blank" rel="noopener noreferrer">Карточка работы в ЭБ СПбПУ ↗</a>
+            </article>
+        </div>
+        <p class="library-note"><strong>Важно:</strong> это аннотации учебных выпускных работ, а не требования Ростехнадзора и не инструкция по эксплуатации. Приведённые модели, режимы и решения нельзя автоматически переносить на другое оборудование. Для практической работы руководствуйтесь паспортом конкретного котла, документацией изготовителя, производственными инструкциями и действующими нормами. Полный текст отдельных материалов может требовать авторизации.</p>
+        <p class="library-home-link"><a href="https://library.spbstu.ru/" target="_blank" rel="noopener noreferrer">Сайт Фундаментальной библиотеки СПбПУ ↗</a> · <a href="https://elib.spbstu.ru/" target="_blank" rel="noopener noreferrer">Электронная библиотека СПбПУ ↗</a></p>
+    </section>
+
+    <!-- Схема (Факторы) - ТЕПЕРЬ КЛИКАБЕЛЬНА -->
+    <section class="benefits" id="benefits">
+        <h2>Факторы безопасной работы <span class="hint">(нажмите на фактор)</span></h2>
+        <div class="benefits-diagram">
+            <div class="benefit-item left top clickable-factor" role="button" tabindex="0" aria-haspopup="dialog" data-title="Контроль давления" data-text="Проверка манометров, предохранительных клапанов и соответствие рабочего давления паспортным значениям. (Приказ Ростехнадзора № 536)">
+                <span>Контроль давления</span>
+            </div>
+            
+            <div class="benefit-item left bottom clickable-factor" role="button" tabindex="0" aria-haspopup="dialog" data-title="Защита от утечек" data-text="Своевременное обслуживание уплотнений, фланцев и трубопроводов. При обнаружении утечки пара или горячей воды — немедленное оповещение и эвакуация.">
+                <span>Защита от утечек</span>
+            </div>
+            
+            <div class="benefit-center">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=520&auto=format&fit=crop" alt="Безопасность">
+            </div>
+
+            <div class="benefit-item right top clickable-factor" role="button" tabindex="0" aria-haspopup="dialog" data-title="Обучение персонала" data-text="Регулярные инструктажи и противоаварийные тренировки. Персонал должен знать, как действовать при отказе автоматики или разгерметизации.">
+                <span>Обучение персонала</span>
+            </div>
+            
+            <div class="benefit-item right bottom clickable-factor" role="button" tabindex="0" aria-haspopup="dialog" data-title="Исправность СИЗ" data-text="Контроль срока годности касок, защитных очков, перчаток и спецодежды. Использование только сертифицированных средств защиты.">
+                <span>Исправность СИЗ</span>
+            </div>
+            
+            <div class="benefit-item center top clickable-factor" role="button" tabindex="0" aria-haspopup="dialog" data-title="Снижение рисков" data-text="Комплексный подход: от исправности оборудования до человеческого фактора. Оценка риска должна проводиться до начала работ.">
+                <span>Снижение рисков</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ИНТЕРАКТИВНЫЙ ЧЕК-ЛИСТ (Дополнение в реальной жизни) -->
+    <section class="checklist-section" id="checklist-section">
+        <h2>Мой чек-лист безопасности</h2>
+        <p class="muted">Добавляйте свои правила, которые вы используете на объекте. Они сохранятся в этом браузере.</p>
+        
+        <form id="checklist-form" class="checklist-form">
+            <input type="text" id="new-rule" placeholder="Например: Проверить наличие огнетушителя ОУ-5..." required maxlength="100">
+            <button type="submit" class="btn-primary">Добавить</button>
+        </form>
+
+        <ul id="checklist-ul" class="checklist-ul">
+            <!-- Элементы добавляются через JS -->
+        </ul>
+    </section>
+
+    <!-- Форма связи -->
+    <section class="contact-section" id="contact">
+        <h2>Остались вопросы?</h2>
+        <p class="muted">Напишите нам, если хотите дополнить проект или нашли ошибку.</p>
+        <form id="contact-form" class="contact-form">
+            <input type="email" id="email" placeholder="Ваш Email" required>
+            <textarea id="message" placeholder="Ваше сообщение..." required rows="4"></textarea>
+            <button type="submit" class="btn-primary">Отправить</button>
+        </form>
+        <div id="form-status" class="form-status"></div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <p>&copy; 2026 Учебный проект по техносферной безопасности. Не является официальным документом.</p>
+    </footer>
+
+    <!-- Модальное окно (Скрыто по умолчанию) -->
+    <div id="modal" class="modal hidden" hidden role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close" type="button" aria-label="Закрыть окно">&times;</button>
+            <h2 id="modal-title">Заголовок</h2>
+            <p id="modal-text">Текст</p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+</body>
+</html>
